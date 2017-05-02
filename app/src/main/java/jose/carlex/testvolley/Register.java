@@ -26,7 +26,7 @@ public class Register extends AppCompatActivity {
     EditText Name,Email,Number,Password,ConPassword;
     String name,email,number,password,conpass, emailDomain = "";
     AlertDialog.Builder builder;
-    String reg_url = "http://192.168.254.101/register.php";
+    String reg_url = "http://192.168.43.93/register.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

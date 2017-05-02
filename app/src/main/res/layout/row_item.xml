@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#BBDEFB"
+    >
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:text="Date"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/row_date"
+        />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:text="subject"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/row_subject"
+        android:layout_toRightOf="@+id/row_date"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="price"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/row_price"
+        android:layout_toRightOf="@+id/row_subject"
+        />
+
+</RelativeLayout>

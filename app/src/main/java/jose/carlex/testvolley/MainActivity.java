@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     Button login_button;
     EditText Email,Password;
     String email, password;
-    String login_url = "http://192.168.254.101/login.php";
+    String login_url = "http://192.168.43.93/login.php";
     AlertDialog.Builder builder;
 
 
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                                         }
                                         else
                                         {
-                                            Intent intent = new Intent(MainActivity.this,LoginSuccess.class);
+                                            Intent intent = new Intent(MainActivity.this,Feed.class);
                                             Bundle bundle = new Bundle();
                                             bundle.putString ("name", jsonObject.getString("name"));
                                             bundle.putString ("email",jsonObject.getString("email"));

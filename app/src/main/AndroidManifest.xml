@@ -18,7 +18,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".Register" />
-        <activity android:name=".LoginSuccess"></activity>
+        <activity android:name=".LoginSuccess" />
+        <activity
+            android:name=".Feed"
+            android:label="@string/title_activity_feed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DisplayListTutor" />
+        <activity android:name=".DisplayListTutee" />
+        <activity android:name=".PosterDetails"></activity>
     </application>
 
 </manifest>

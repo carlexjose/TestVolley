@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="User">
+            <menu>
+                <item
+                    android:id="@+id/nav_notifications"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Notifications" />
+                <item
+                    android:id="@+id/nav_user_posts"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Posts" />
+                <item
+                    android:id="@+id/nav_reviews"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Reviews" />
+                <item
+                    android:id="@+id/nav_information"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Information" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Job Orders">
+        <menu>
+            <item
+                android:id="@+id/nav_tutor_posts"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Tutors" />
+            <item
+                android:id="@+id/nav_tutee_posts"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Tutees" />
+        </menu>
+    </item>
+
+</menu>
